@@ -1,7 +1,7 @@
 import * as React from 'react'
 import useDarkMode from '@fisch0920/use-dark-mode'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
-import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
+import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
@@ -59,15 +59,15 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
 
-        {config.zhihu && (
+        {config.instagram && (
           <a
             className={styles.zhihu}
-            href={`https://zhihu.com/people/${config.zhihu}`}
-            title={`Zhihu @${config.zhihu}`}
+            href={`https://instagram.com/${config.instagram}`}
+            title={`Instagram @${config.instagram}`}
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaZhihu />
+            <FaInstagram />
           </a>
         )}
 
