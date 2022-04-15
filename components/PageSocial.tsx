@@ -47,13 +47,14 @@ const socialLinks: SocialLink[] = [
   },
 
   config.linkedin && {
-    name: 'linkedin',
-    href: `https://www.linkedin.com/in/${config.linkedin}`,
-    title: `LinkedIn ${config.author}`,
+    name: 'personal',
+    href: `https://www.ronnycoste.com`,
+    title: `personal ${config.author}`,
     icon: (
-      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
-        <path d='M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z' />
-      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="32" fill="currentColor" viewBox="0 0 16 16">
+  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+</svg>
     )
   }
 ].filter(Boolean)

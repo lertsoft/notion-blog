@@ -87,17 +87,29 @@
 }
 
 .instagram .actionBgPane {
-  background: #ef1eb9;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
 }
-.instagram:hover {
-  border-color: #ef1eb9;
-}
+
 
 .linkedin .actionBgPane {
   background: #0077b5;
 }
 .linkedin:hover {
   border-color: #0077b5;
+}
+
+.personal .actionBgPane {
+  background: #f12b43;
+}
+.personal:hover {
+  border-color: #f12b43;
 }
 
 .github .actionBgPane {
