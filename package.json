@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-notion-starter-kit",
+  "name": "ronny_mind",
   "version": "2.0.0",
   "private": true,
-  "description": "The perfect starter kit for building beautiful websites with Next.js and Notion.",
-  "author": "Travis Fischer <travis@transitivebullsh.it>",
-  "repository": "transitive-bullshit/nextjs-notion-starter-kit",
+  "description": "My ideas and writings in one place",
+  "author": "Ronny Coste <hello@ronnycoste.com>",
+  "repository": "lertsoft/notion-blog",
   "license": "MIT",
   "engines": {
     "node": ">=14.17"

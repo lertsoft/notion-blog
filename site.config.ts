@@ -10,7 +10,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
+  name: 'Ronny mind',
   domain: 'https://ronnycoste.com',
   author: 'Ronny Coste',
 
